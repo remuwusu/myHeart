@@ -17,7 +17,7 @@ pero para eso hay que correr:
 [terminal@remuwusu / yourHeart]$ sudo nano myLove.sh
 
 
-# shell
+# i3 config
 
 #! bin/sh/
 
