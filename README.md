@@ -6,30 +6,51 @@ pero para eso hay que correr:
 
 # Cosas de la terminal
 
-[terminal@remuwusu]$ cd ~/.config |
-[terminal@remuwusu / .config]$ sudo mkdir yourHeart/ |
-[terminal@remuwusu / .config]$ cd yourHeart/ |
-[terminal@remuwusu / yourHeart]$ sudo touch myLove.ini |
-[terminal@remuwusu / yourHeart]$ sudo nano myLove.ini |
+[terminal@remuwusu]$ cd ~/.config 
+
+[terminal@remuwusu / .config]$ sudo mkdir yourHeart/ 
+
+[terminal@remuwusu / .config]$ cd yourHeart/ 
+
+[terminal@remuwusu / yourHeart]$ sudo touch myLove.ini 
+
+[terminal@remuwusu / yourHeart]$ sudo nano myLove.ini 
+
 
 GNU nano 6.3
+
 #! bin/sh/
+
 exec_always --no-startup-id $HOME/remuwusu/.config/yourHeart/myLove.ini
 
+
 # myLove.ini
+
 #! bin/sh/
+
 cat << EOF
+
  
  \e[0;91m   █████      █████     \e[0m
+ 
  \e[0;91m ████████    ████████    \e[0m
+ 
 \e[0;91m ██████████████████████     \e[0m
+
  \e[0;91m ████████████████████    \e[0m
+ 
  \e[0;91m   ████████████████      \e[0m
+ 
   \e[0;91m    ████████████        \e[0m
+  
   \e[0;91m     ██████████       \e[0m
+  
   \e[0;91m       ██████       \e[0m
+  
   \e[0;91m        ████    \e[0m
+  
   \e[0;91m         ██  \e[0m
+  
           
 EOF
 
