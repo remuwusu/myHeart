@@ -2,11 +2,11 @@ bueno dia mi gente hoy vamo a hacé uno proyeto to guapo un abraso grasia
 este corazón se supone que lo tengo que crear en python pero como alacritty no soporta imagenes (gracias dev), entonces vamos a usar una cosa sencilla en una shell de bash
 pero para eso hay que correr:
 
-[terminal@remuwusu]$ cd ~/.config
-[terminal@remuwusu / .config]$ sudo mkdir yourHeart/
-[terminal@remuwusu / .config]$ cd yourHeart/
-[terminal@remuwusu / yourHeart]$ sudo touch myLove.ini
-[terminal@remuwusu / yourHeart]$ sudo nano myLove.ini
+[terminal@remuwusu]$ cd ~/.config |
+[terminal@remuwusu / .config]$ sudo mkdir yourHeart/ |
+[terminal@remuwusu / .config]$ cd yourHeart/ |
+[terminal@remuwusu / yourHeart]$ sudo touch myLove.ini |
+[terminal@remuwusu / yourHeart]$ sudo nano myLove.ini |
 
 # GNU nano 6.3
 #! bin/sh/
