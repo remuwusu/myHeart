@@ -12,19 +12,19 @@ pero para eso hay que correr:
 
 [terminal@remuwusu / .config]$ cd yourHeart/ 
 
-[terminal@remuwusu / yourHeart]$ sudo touch myLove.ini 
+[terminal@remuwusu / yourHeart]$ sudo touch myLove.sh
 
-[terminal@remuwusu / yourHeart]$ sudo nano myLove.ini 
+[terminal@remuwusu / yourHeart]$ sudo nano myLove.sh
 
 
-GNU nano 6.3
+# shell
 
 #! bin/sh/
 
-exec_always --no-startup-id $HOME/remuwusu/.config/yourHeart/myLove.ini
+exec_always --no-startup-id $HOME/remuwusu/.config/yourHeart/myLove.sh
 
 
-# myLove.ini
+# myLove.sh
 
 #! bin/sh/
 
