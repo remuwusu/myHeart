@@ -21,7 +21,7 @@ pero para eso hay que correr:
 
 #! bin/sh/
 
-exec_always --no-startup-id $HOME/remuwusu/.config/yourHeart/myLove.sh
+exec_always --no-startup-id $HOME/(yourUsr)/.config/yourHeart/myLove.sh
 
 
 # myLove.sh
